@@ -2,10 +2,20 @@
 //
 
 #include <iostream>
+#include <math.h>
+#include <string.h>
+#include "include/httplib.h"
+//#include "include/rapidjson/"     //Line for when we want to start including RapidJSON stuff
 
 int main()
 {
     std::cout << "Hello World!\n";
+    //TODO: Create a connection with the Deadlock API
+    //TODO: Extract data from the API using an https GET
+    //TODO: Parse that data into JSON objects
+    //TODO: Create tools to run numerical analysis of the data
+    //TODO: Create a console interface to allow the user to interact with the program and display data
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
